@@ -21,18 +21,7 @@ $(document).ready(function() {
     
     // nav animation 
     
-    
-    TweenMax.from("#brand", 1,{
-        delay: 1,
-        opacity:0,
-        ease: Expo.easeInOut
-    })
-    
-    TweenMax.staggerFrom("#menu li a",1,{
-        delay: 1,
-        opacity:0,
-        ease: Expo.easeInOut
-    }, 0.1);
+
     // anim end
     
     $('nav.d-none').removeClass("d-none");

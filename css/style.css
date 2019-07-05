@@ -8,6 +8,16 @@ html,body {
     background: #0f0f0f !important;
     color: #fff !important
 }
+.acolor {
+    color: gray;
+}
+a {
+    color: white;
+}
+
+#underline{
+    text-decoration: underline;
+}
 
 .whitespace {
     width: 100%;
@@ -62,7 +72,11 @@ html,body {
             border-right-color: transparent;
         }
     }
-
+@media(max-width:1000px){
+    #text {
+        font-size: 1.2rem;
+    }
+}
 /*------------nav-------------*/
 
 nav {
